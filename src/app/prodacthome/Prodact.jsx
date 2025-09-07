@@ -132,7 +132,7 @@ const ProductScroll = () => {
         {products.map(product => (
           <div 
             key={product.id}
-            className="flex-shrink-0 mt-[10px] bg-white w-[170px] h-[189px] sm:w-[200px] sm:h-[220px] lg:w-[250px] lg:h-[250px] rounded-[50px] p-4 shadow-lg flex flex-col items-center justify-center transform transition-transform hover:scale-105 cursor-pointer"
+            className="flex-shrink-0 mt-[10px] bg-white w-[170px] h-[189px] sm:w-[200px] sm:h-[220px] lg:w-[250px] lg:h-[250px] rounded-[30px] p-4 shadow-7xl flex flex-col items-center justify-center transform transition-transform hover:scale-105 cursor-pointer"
             onClick={() => handleProductClick(product)} // Make entire product clickable
           >
             <div className={`rounded-full mb-3 flex items-center justify-center`}>

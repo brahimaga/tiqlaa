@@ -1,8 +1,11 @@
 import Image from 'next/image';
 import react from 'react';
 import Prodact from "../app/prodacthome/Prodact";
+import PageData from './pagedata/page';
 export default function Home() {
   return (
+    <div>
+
     <div className="p-4 px-4">
       <div className="bg-cover rounded-[50px] w-full h-screen bg-center" style={{ backgroundImage: "url('/image1.jpeg')" }}>
         {/* Header Section */}
@@ -44,11 +47,16 @@ export default function Home() {
         <div className="absolute space-x-6 p-1 text-white bg-opacity-70">
 
           {/* Text content */}
-          <h1 className="text-4xl  md:text-5xl font-bold text-center">Welcome to Tiqlaa</h1>
+          <h1 className="text-3xl  md:text-5xl font-bold text-center">مرحبا بيك عندنا</h1>
      
         </div>
 
       </div>
     </div>
+          <PageData />
+
+          </div>
+
+    
   );
 }
