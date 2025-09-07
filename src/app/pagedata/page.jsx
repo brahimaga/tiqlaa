@@ -82,22 +82,31 @@ export default function PageData() {
     </div>
 
 
-
-    <div className="relative w-full h-screen">
+<div className="p-[20px]">
+<div className="relative  w-full h-screen">
   {/* الصورة */}
   <img
-    className="w-full h-full object-cover"
+    className="w-full h-full rounded-[30px] object-cover"
     src="image2.jpeg"
     alt=""
   />
 
   {/* الـ div فوق الصورة */}
   <div className="absolute inset-0 flex justify-center items-center">
-    <div className="w-[400px] h-[400px] bg-white/30 rounded-lg">
-        <h1 className="text-white text-[30px]">text</h1>
+    <div className="w-[400px] h-[400px] p-[20px] bg-white/60 rounded-lg">
+          <div className="flex gap-[20px]">
+          <h1 className="text-balck text-[30px]">text</h1>
+          <h1 className="text-balck text-[30px]">text</h1>
+ 
+
+          </div>
     </div>
   </div>
 </div>
+
+
+</div>
+ 
 
 </div>
   );
